@@ -1,0 +1,133 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: linear-gradient(120deg, #000000, #021776);
+    height: 100vh;
+}
+.logo1 {
+    display: block;
+    margin: 20px auto; /* Centrar la imagen y agregar un margen */
+}
+.username{
+    position: relative;
+}
+.username input{
+    width: 350px;
+    height: 60px;
+    border-radius: 6px;
+    font-size: 18px;
+    padding:  0 15px;
+    border: 2px solid #000000;
+    background: transparent;
+    color: #000000;
+    outline: none;
+
+}
+
+.username label{
+position: absolute;
+top: 50%;
+left: 15px;
+transform: translateY(-50%);
+font-size: 19px;
+pointer-events: none;
+}
+.input:focus ~ label {
+    top: 0;
+    left: 15px;
+    font-size: 16px;
+    padding: 0 2px;
+    background: white;
+    transition: .3s;
+}
+
+
+
+
+
+
+
+
+
+
+form {
+    background-color: white; /* Fondo blanco solo para el formulario */
+    width: 400px; /* Ancho del formulario */
+    margin: 50px auto; /* Centrar el formulario horizontal y verticalmente */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+}
+
+h1 {
+    text-align: center; /* Centrar el texto */
+    color: white; /* Color blanco para las letras */
+    margin-top: 0; /* Reducir espacio superior si es necesario */
+}
+label.My{
+    font-size: 20px;
+    display: block;
+    
+
+}
+label.msg1 {
+    font-size: 20px; /* Tamaño de fuente más grande para el label */
+    display: block; /* Forzar que el label ocupe toda la línea */
+    margin-bottom: 10px; /* Espacio entre el label y el input */
+    color: #333; /* Cambiar el color del texto (opcional) */
+}
+
+input[type="text"] {
+    width: 100%; /* Ajustar el input al ancho del contenedor */
+    padding: 10px; /* Aumentar el espacio interno */
+    font-size: 18px; /* Hacer el texto del input más grande */
+    border: 1px solid #ccc; /* Añadir un borde */
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Asegurarse de que padding no afecte el tamaño total */
+}
+
+
+.siguiente {
+    display: block;
+    width: 100%; /* Ajustar el input al ancho del contenedor */
+
+    margin: 20px auto; 
+    background-color: #021776;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+.siguiente a {
+    color: white;
+    text-decoration: none;
+    display: block;  /* Hace que el enlace ocupe todo el área del botón */
+}
+
+.siguiente a:hover {
+    color: #f0f0f0;  /* Color al pasar el ratón */
+}
+.siguiente input{
+    width: 100%; /* Ajustar el input al ancho del contenedor */
+    padding: 10px; /* Aumentar el espacio interno */   
+    background-color: #021776;
+    border: transparent;
+    font-size: 20px;
+    color: white;
+
+}
+
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - MyDisney</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Logo superior -->
+    <img src="logtipo.png" class="logo1" width="350px" height="250px" alt="Logo MyDisney">
+
+    <!-- Contenedor del formulario -->
+    <div class="formulario">
+        <h1>Registro</h1>
+        <form id="registerForm">
+            <!-- Logo pequeño dentro del formulario -->
+            <img src="mydisney.png" class="logo2" width="150px" height="70px" alt="Logo pequeño MyDisney">
+        
+            <!-- Campo de correo -->
+            <div class="input-group">
+                <input type="email" class="input" id="correo" name="correo" required>
+                <label class="msg">Correo electrónico</label>
+            </div>
+        
+            <!-- Campo de contraseña -->
+            <div class="input-group">
+                <input type="password" class="input" id="contrasena" name="contrasena" required>
+                <label class="msg">Contraseña</label>
+            </div>
+        
+            <!-- Botón de envío -->
+            <input type="submit" class="btn" value="Registrarse">
+        </form>
+        
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

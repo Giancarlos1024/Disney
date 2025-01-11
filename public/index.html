@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <img src="img/logtipo.png" class="logo1" width="350px" height="250px" alt="">
+    <div class="formulario"></div>
+    <h1>INICIO DE SESION</h1>
+    <form id="loginForm">
+        <img src="img/mydisney.png" class="logo2" width="150px" height="70px" alt="Disney Logo">
+    
+        <!-- Campo de correo -->
+        <div class="username">
+            <input type="email" class="input" id="email" name="email" required>
+            <label class="msg1">Email</label>
+        </div>
+        
+        <!-- Botón para verificar el correo y redirigir al password -->
+        <input type="button" class="siguiente" value="Siguiente" onclick="verifyAndRedirect()">
+    
+        <!-- Enlace para registrarse -->
+        <div class="register-link">
+            <p>¿No tienes cuenta? <a href="registrar.html">Registrarse</a></p>
+        </div>
+    </form>
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>
